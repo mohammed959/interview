@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+    to top,
+    white 0% 50%,
+    #4f008c 50% 100%
+  );
+}
+
+.container .form-1 {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 501px) {
+  .container .form-1 {
+    width: 300px;
+  }
+
+ 
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  .container .form-1 {
+    width: 450px;    
+  }
+}
+
+@media (min-width: 765px) {
+  html {
+    font-size: 18px;
+  }
+  
+  .container .form-1 {
+    width: 450px;  
+    
+  }
+ 
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .container {
+    height: 100vmax;
+  }
+}
+
+::placeholder{
+  color: silver;
+  font-size: 0.8rem;
+}
+
+
+

@@ -1,0 +1,20 @@
+.form-1 {
+    @apply flex flex-col absolute w-2/5 top-[50%] left-[50%] bg-white h-[30rem] translate-y-[-55%] translate-x-[-50%] z-30 ;
+    
+    .title {
+        @apply text-center font-bold lg:text-[1.2rem] md:text-[1rem] w-[90%] sm:text-[1rem] mx-auto pt-[3.7rem] pb-[4.8rem]  ;
+    }
+    .label {
+        @apply text-black my-0 mx-8 text-[0.9rem] ;
+     }
+     .input {
+        @apply text-base  outline-none border-b-2 border-solid	border-slate-300 my-4 mx-8  ;
+     }
+     .error {
+        @apply text-red-500 mb-[30px] leading-[0.1em] text-[0.8rem] ltr:pl-8 rtl:pr-8 ;
+     }
+     .verify {
+        @apply m-8 p-2 cursor-pointer  text-[1rem] text-white border-none font-extrabold fixed bottom-0 lg:w-[88%] md:w-[80%] w-[80%] sm:w-[88%] ;
+     }
+}
+

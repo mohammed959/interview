@@ -1,0 +1,21 @@
+.container {
+    @apply flex justify-between items-center flex-col relative pt-2 lg:mt-4 md:mt-6 mt-16 w-[100%] ;
+
+    .form-1 {
+        @apply flex flex-col w-2/5 top-[50%] bg-white mb-12 ;
+    }
+    .title {
+        @apply text-center font-bold lg:text-[1.2rem] md:text-[1rem] w-[90%] sm:text-[1rem] mx-auto pt-[3.7rem] pb-[4.8rem] ;
+
+    }
+    .pdfcontainer { 
+        @apply bg-white h-[80px] w-[90%] m-auto flex justify-between items-center shadow-xl px-[10px];
+    }
+
+    .download-document {
+        @apply m-[2rem] mb-[1.5rem] p-[0.5rem] cursor-pointer mt-[80px] border-none text-[1rem] font-extrabold text-white bg-[#2dc28d]  ;
+    }
+    .view {
+        @apply my-0 mx-[2rem] text-blue-700 cursor-pointer ;
+    }
+}

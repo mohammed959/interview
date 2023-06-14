@@ -1,0 +1,18 @@
+{
+    "language":"عربي",
+    "firstpagetitle":"Digital document verification",
+    "firstpagesubtitle":"Verify a digital certification by filling in the details below",
+    "iqamalabel":"ID Iqama number",
+    "iqamaplaceholder":"Enter ID Iqama number",
+    "referencelabel":"Reference number",
+    "referenceplaceholder":"Enter document reference number",
+    "verify":"Verify",
+    "secondpagetitle":"This document is verified and has been issued by STC Bank",
+    "pdftitle":"DigitalCertificate pdf",
+    "pdfview":"View",
+    "download":"Download document",
+    "verifyanother":"Verify another document",
+    "required":"Required Filed",
+    "maxLength":"ID Iqama must be 10 numbers",
+    "minLength":"ID Iqama must be 10 numbers"
+}

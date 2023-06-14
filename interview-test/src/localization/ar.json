@@ -1,0 +1,18 @@
+{
+    "language":"English",
+    "firstpagetitle":"التحقق من المستندات الرقمية",
+    "firstpagesubtitle":"",
+    "iqamalabel":"رقم الهوية / الاقامة",
+    "iqamaplaceholder":"رقم الهوية",
+    "referencelabel":"رقم reference",
+    "referenceplaceholder":"رقم reference",
+    "verify":"تحقق",
+    "secondpagetitle":"تم التحقق من هذا المستند وتم إصداره من قبل بنك STC",
+    "pdftitle":"الشهادة الرقمية",
+    "pdfview":"شاهد",
+    "download":"حمل المستند",
+    "verifyanother":"تحقق من مستند اخر",
+    "required":"حقل الزامي",
+    "maxLength":"رقم الهوية مكون من ١٠ ارقام",
+    "minLength":"رقم الهوية مكون من ١٠ ارقام"
+}
